@@ -1,0 +1,58 @@
+/* General Styles */
+body {
+ margin: 0;
+ font-family: Arial, sans-serif;
+ line-height: 1.6;
+}
+
+/* Colors */
+:root {
+ --primary-color: #3498db; /* Example primary color */
+ --secondary-color: #2ecc71; /* Example secondary color */
+ --text-color: #333;
+}
+
+/* Layout */
+.container {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 20px;
+}
+
+/* Typography */
+h1, h2, h3 {
+ color: var(--primary-color);
+}
+
+/* Buttons */
+.button {
+ background-color: var(--secondary-color);
+ color: white;
+ border: none;
+ padding: 10px 20px;
+ cursor: pointer;
+}
+
+.button:hover {
+ background-color: darken(var(--secondary-color), 10%);
+}
+
+/* Utility Classes */
+.text-center {
+ text-align: center;
+}
+
+.mt-1 {
+ margin-top: 1rem;
+}
+
+.mb-1 {
+ margin-bottom: 1rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+ .container {
+     padding: 10px;
+ }
+}
